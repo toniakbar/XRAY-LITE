@@ -106,7 +106,7 @@ case $opt in
 4) clear ; log-create ;;
 5) clear ; xraymod ;;
 6) clear ; speedtest ;;
-7) clear ; changer ;;
+7) clear ; dns ;;
 8) clear ; certxray ;;
 9) clear ;
 resolvectl status
@@ -116,7 +116,7 @@ read -n 1 -s -r -p "Press any key to back on menu"
 echo ""
 echo ""
 menu ;;
-10) clear ; dns ;;
+10) clear ; changer ;;
 x) exit ;;
 *) echo -e "${RB}salah input${NC}" ; sleep 1 ; menu ;;
 esac
